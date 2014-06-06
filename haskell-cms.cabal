@@ -27,3 +27,4 @@ Executable haskell-cms
                  -fno-warn-unused-do-bind
   else
     ghc-options: -threaded -Wall -fwarn-tabs -funbox-strict-fields -O2
+
