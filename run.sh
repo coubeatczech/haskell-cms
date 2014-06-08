@@ -5,6 +5,7 @@ mkdir -p dist/
 mv ./src/client/*.js dist/
 rm ./src/client/*.hi
 rm ./src/client/*.o
+rm -r ./main
 cp ./src/static/* dist/
 
 cabal install
