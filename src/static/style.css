@@ -1,0 +1,24 @@
+div#set-width {
+  width: 960px;
+  margin: 0px auto;
+}
+
+form#new-post label{
+  width: 70px; 
+  display: block;
+  float: left;
+}
+
+form#new-post input, form#new-post textarea {
+  width: 700px; 
+  float: left;
+}
+
+form#new-post textarea {
+  height: 300px;
+}
+
+.clear {
+  clear:both;
+}
+
