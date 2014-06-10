@@ -1,12 +1,6 @@
 #!/bin/bash
 
-hastec ./src/client/*.hs 
-mkdir -p dist/
-mv ./src/client/*.js dist/
-rm ./src/client/*.hi
-rm ./src/client/*.o
-rm -r ./main
-cp ./src/static/* dist/
+source run-hastec.sh
 
 cabal install
 cd dist/
